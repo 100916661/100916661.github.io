@@ -135,10 +135,13 @@ Description: -->
           src = "picture/" alt="Dinosaur's head photo">
         </a>
         <a href="https://addons.mozilla.org/">
-          <img>
+          <img srcset="picture/firefoxaddons120.jpg 120w,
+          picture/firefoxaddons400.jpg 400w"
+          sizes = "(max-width: 500px) 120px, 400px"
+          src = "picture/firefoxaddons400.jpg" alt="Addons photo">
         </a>
         <a href="https://developer.mozilla.org/en-US/">
-          <img>
+          <img srcset="picture/mdn.svg" alt="MDN">
         </a>
         <div class="clearfix"></div>
       </div>
