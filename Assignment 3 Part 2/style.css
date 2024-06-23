@@ -16,6 +16,7 @@ div {
   border-radius: 10px;
   border: 1px solid #c90c02;
   background-color: #E40C00;
+<<<<<<< Updated upstream
 
   background-image: 
   linear-gradient(
@@ -28,4 +29,6 @@ div {
   10px 10px 8px black,
   inset 5px 5px 3px rgba(255, 255, 255, 0.436),
   inset -5px -5px 3px rgba(0, 0, 0, 0.436);
+=======
+>>>>>>> Stashed changes
 }
